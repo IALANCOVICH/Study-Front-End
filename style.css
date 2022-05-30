@@ -1,0 +1,39 @@
+
+        .carta{
+            --red: red;
+            border: 5px solid;
+            width: 200px;
+            height: 300px;
+            font-size: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: fixed;
+            background-color: white;
+        }
+        .carta>span{
+            padding: 10px;
+        }
+        .carta>span:nth-child(2){
+            font-size: 100px;
+            text-align: center;
+        }
+        .carta>span:last-child{
+            transform: rotate(180deg);
+        }
+        .copas{
+            color:var(--red);
+        }
+        .espadas{
+            left: 100px;
+            top: 100px;
+        }
+        .ouros{
+            color:var(--red);
+            left: 200px;
+            top: 200px;
+        }
+        .paus{
+            left: 300px;
+            top: 300px;
+        }
